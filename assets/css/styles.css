@@ -61,15 +61,15 @@ a {
 .brand-logo--top {
   --logo-canvas-width: 795.756%;
   --logo-left: -357.825%;
-  --logo-top: -332.095%;
-  width: clamp(6rem, 10vw, 8rem);
+  --logo-top: -345.856%;
+  width: clamp(3.6rem, 6vw, 4.8rem);
   aspect-ratio: 377 / 362;
 }
 
 .brand-logo--bottom {
   --logo-canvas-width: 229.358%;
   --logo-left: -66.59%;
-  --logo-top: -86.162%;
+  --logo-top: -267.696%;
   width: clamp(15rem, 34vw, 26rem);
   aspect-ratio: 1308 / 421;
 }
