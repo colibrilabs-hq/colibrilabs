@@ -113,7 +113,9 @@ h1 {
 }
 
 .contact-button {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
+  margin-inline: auto;
   min-height: 3.5rem;
   align-items: center;
   justify-content: center;
