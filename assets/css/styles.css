@@ -63,7 +63,7 @@ a {
   --logo-canvas-width: 229.358%;
   --logo-left: -66.59%;
   --logo-top: -267.696%;
-  width: clamp(7.488rem, 12.48vw, 9.984rem);
+  width: clamp(10.1088rem, 16.848vw, 13.4784rem);
   aspect-ratio: 1308 / 421;
 }
 
