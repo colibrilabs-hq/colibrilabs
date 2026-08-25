@@ -149,6 +149,7 @@ h1 {
 }
 
 .site-footer {
+  justify-content: center;
   gap: 1rem;
   background: var(--ink);
   color: var(--paper);
@@ -166,10 +167,6 @@ h1 {
     box-shadow: 6px 6px 0 var(--ink);
   }
 
-  .site-footer {
-    align-items: flex-start;
-    flex-direction: column;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
