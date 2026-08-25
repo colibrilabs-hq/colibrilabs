@@ -43,22 +43,35 @@ a {
 
 .brand-logo {
   display: block;
+  position: relative;
+  overflow: hidden;
   text-decoration: none;
 }
 
 .brand-logo img {
   display: block;
-  width: 100%;
+  position: absolute;
+  top: var(--logo-top);
+  left: var(--logo-left);
+  width: var(--logo-canvas-width);
+  max-width: none;
   height: auto;
 }
 
 .brand-logo--top {
-  width: clamp(5.5rem, 10vw, 8rem);
+  --logo-canvas-width: 795.756%;
+  --logo-left: -357.825%;
+  --logo-top: -332.095%;
+  width: clamp(6rem, 10vw, 8rem);
+  aspect-ratio: 377 / 362;
 }
 
 .brand-logo--bottom {
-  width: clamp(8rem, 18vw, 13rem);
-  height: auto;
+  --logo-canvas-width: 229.358%;
+  --logo-left: -66.59%;
+  --logo-top: -86.162%;
+  width: clamp(15rem, 34vw, 26rem);
+  aspect-ratio: 1308 / 421;
 }
 
 .site-main {
