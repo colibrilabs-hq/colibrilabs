@@ -41,20 +41,24 @@ a {
   border-bottom: var(--border);
 }
 
-.wordmark,
-.brand-signoff__mark {
-  margin: 0;
-  font-size: clamp(1.5rem, 3vw, 2.5rem);
-  font-weight: 900;
-  letter-spacing: -0.08em;
-  line-height: 0.85;
+.brand-logo {
+  display: block;
   text-decoration: none;
 }
 
-.wordmark span,
-.brand-signoff__mark span {
+.brand-logo img {
   display: block;
-  margin-left: 1.3em;
+  width: 100%;
+  height: auto;
+}
+
+.brand-logo--top {
+  width: clamp(5.5rem, 10vw, 8rem);
+}
+
+.brand-logo--bottom {
+  width: clamp(8rem, 18vw, 13rem);
+  height: auto;
 }
 
 .site-main {
@@ -117,7 +121,7 @@ h1 {
 }
 
 .contact-button:focus-visible,
-.wordmark:focus-visible,
+.brand-logo:focus-visible,
 .site-footer a:focus-visible {
   outline: 3px solid var(--paper);
   outline-offset: 4px;
@@ -129,10 +133,6 @@ h1 {
   place-items: center;
   padding: 3rem 1.25rem;
   border-top: var(--border);
-}
-
-.brand-signoff__mark {
-  font-size: clamp(3.5rem, 13vw, 10rem);
 }
 
 .site-footer {
