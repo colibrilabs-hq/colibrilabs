@@ -38,6 +38,7 @@ a {
 }
 
 .site-header {
+  padding-block: 1.625rem;
   border-bottom: var(--border);
 }
 
@@ -62,7 +63,7 @@ a {
   --logo-canvas-width: 229.358%;
   --logo-left: -66.59%;
   --logo-top: -267.696%;
-  width: clamp(5.76rem, 9.6vw, 7.68rem);
+  width: clamp(7.488rem, 12.48vw, 9.984rem);
   aspect-ratio: 1308 / 421;
 }
 
@@ -144,9 +145,9 @@ h1 {
 
 .brand-signoff {
   display: grid;
-  min-height: 13rem;
+  min-height: 0;
   place-items: center;
-  padding: 3rem 1.25rem;
+  padding: 1.2rem 1.25rem;
   border-top: var(--border);
 }
 
